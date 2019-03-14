@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Marcin Sufa - Portfolio</title>
+	<link rel="shortcut icon" type="images/favicon.ico" href="images/favicon.ico" />
+	<!-- Don't forget to add your metadata here -->
+	<link rel='stylesheet' href='css/style.css' />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- Hero(extended) navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Marcin Sufa</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#about_me">About Me</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="images/Marcin Sufa CV en.pdf">CV</a></li>
+					</ul>
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+							  class=""></path>
+						</svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero unit -->
+
+	<div class="hero">
+
+		<div id="particles-js"></div>
+
+		<img class="pic_ms" src="images/ms_pic_small.png" alt="Marcin Sufa picture">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+
+		<div class="hero__mask"></div>
+		<div class="hero__inner">
+
+			<div class="container">
+				<div class="hero__content">
+
+					<div class="hero__content__inner" id='navConverter'>
+						<h1 class="hero__title">Web Developer</h1>
+						<p class="hero__text">Turning ideas into reality. UX design, graphic and web application developments, are my passion. I am open to change, constantly searching for new and better work solutions. </p>
+						<a href="#" class="button button__accent">My GitHub</a>
+						<a href="#" class="button hero__button">About Me</a>
+						<div name="airvisual_widget" key="b2mYvts8GDYcRdRn6"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="hero__sub">
+		<span id="scrollToNext" class="scroll">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+			  xml:space="preserve">
+				<path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z" /></svg>
+		</span>
+	</div>
+
+	<!-- About Me -->
+	<div id="about_me" class="expanded landing__section about_me_section">
+		<div class="container">
+
+
+			<h1 class="h1_top_styling" style="text-align:center;">About Me</h1>
+		</div>
+		<div class="container">
+
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/undraw_launching_125y.svg" class="expanded__image">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">I like building things</h2>
+					<p class="expanded__text">Im curently working in my Startup Domocni.pl where i'm responsible for design and development of new innovative business model,
+						developing a product strategy and continually refine it for optimal product/market fit.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Portfolio -->
+
+	<div class="steps landing__section" id="portfolio">
+
+		<div class="container">
+			<h1 class="h1_top_styling">Portfolio</h1>
+			<label onclick="openNavPortfolio()">&#9776;</label>
+
+
+			<div class="navbarPortfolio">
+
+				<button class="tablink" onclick="openPortfolio('Domocni', this, '#683A6E')" id="defaultOpen">Domocni.pl</button>
+				<button class="tablink" onclick="openPortfolio('BiegunWydarzen', this, '#683A6E')">BiegunWydarzen.pl</button>
+				<button class="tablink" onclick="openPortfolio('Blog', this, '#683A6E')">Mailchimp Api</button>
+				<button class="tablink" onclick="openPortfolio('ToDoApp', this, '#683A6E')">ToDoApp</button>
+				<button class="tablink" onclick="openPortfolio('SimonsGame', this, '#683A6E')">Simons Game</button>
+			</div>
+		</div>
+		<div class="container">
+			<div id="Domocni" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media ">
+						<div class="img_portfolio">
+
+							<img src="https://media.giphy.com/media/pjYPqkoZJM4CZGxkvf/giphy.gif" title="Domocni showcase" />
+						</div>
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">Domocni.pl</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Uber for household services (Chimney-sweepers, gas technicianst, electricians). Building app, creating graphics, UI design, collecting user feedback, marketing.
+							Building service for real time appointments.
+						</p>
+						<h4>Technologies</h4>
+						<div class="step__media">
+
+
+							<div class="portfolio_tech_btn">
+								<button>Wordpress</button> <button>Woocommerce</button><button>Adwords</button><button>Google Api</button><button>Dot.pay Api</button><button>Yandex Metrica</button><button>Facebook pages</button>
+							</div>
+							<hr />
+							<div class="portfolio_links">
+								<a href="https://domocni.pl" class="button button__accent">Domocni</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div id="BiegunWydarzen" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="https://media.giphy.com/media/4Hk1Bs0L1qj04rq0Ts/giphy.gif" title="BiegunWydarzen showcase" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">BiegunWydarzen.pl</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Blog about economics, sociology and politics. Creating graphics, infographics, copyrighting, buiding audience, social media management.</p>
+						<h4>Technologies</h4>
+						<div class="step__media">
+							<div class="portfolio_tech_btn">
+								<button>Wordpress</button><button>Facebook Pages</button><button>Facebook Ads</button><button>Infographics</button><button>Photoshop</button><button>Mailchimp</button>
+
+							</div>
+							<hr />
+							<div class="portfolio_links">
+								<a href="https://biegunwydarzen.pl" class="button button__accent">BiegunWydarzen</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Blog" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="	https://media.giphy.com/media/1nPJa72JkfmBVe1D3v/giphy.gif" title="Newsletter showcase" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">Newsletter api</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Testing Newsletter sign up using Mailchimp api. Testing redirection after success or failure. Deploying on Heroku.
+						</p>
+						<h4>Technologies</h4>
+						<div class="step__media">
+							<div class="portfolio_tech_btn">
+								<button>Html</button><button>Css</button><button>JavaScript</button><button>Node.js</button><button>Heroku</button>
+
+							</div>
+							<hr />
+							<div class="portfolio_links">
+								<a href="https://github.com/MarcinSufa/Newsletter-" class="button button__accent"><i class="fab fa-github"></i></a>
+								<a href="https://enigmatic-earth-33456.herokuapp.com/" class="button button__accent">Heroku link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div id="ToDoApp" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="https://media.giphy.com/media/9Y3KhY903Jk0CMubjw/giphy.gif" title="ToDoApp showcase" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">ToDoApp</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Building To-do app, using Ejs for views, and Node.js for server.
+						</p>
+						<h4>Technologies</h4>
+						<div class="step__media">
+							<div class="portfolio_tech_btn">
+								<button>Html</button> <button>Css</button> <button>EJS</button><button>Node.js</button><button>Heroku</button>
+							</div>
+							<hr />
+
+							<div class="portfolio_links">
+								<a href="https://github.com/MarcinSufa/todo-app" class="button button__accent"><i class="fab fa-github"></i></a>
+								<a href="https://stormy-tor-94263.herokuapp.com/" class="button button__accent">Heroku link</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="SimonsGame" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="https://media.giphy.com/media/1Xb0kHvvyhyGwxy44g/giphy.gif" title="SimonsGame showcase" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">Simon's Game</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Simple memory game, made in vanila JavaScript. Learning foundations of js.
+						</p>
+						<h4>Technologies</h4>
+						<div class="portfolio_tech_btn">
+							<button>Html</button> <button>JavaScript</button>
+						</div>
+						<hr />
+						<div class="portfolio_links">
+							<a href="https://github.com/MarcinSufa/Simon-Game" class="button button__accent"><i class="fab fa-github"></i></a>
+							<a href="https://domocni.pl" class="button button__accent">Simon's Game</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- Skills Section-->
+	<div id="skills" class="expanded landing__section">
+		<div class="container">
+
+			<h1 class="h1_top_styling">My Skill's</h2>
+				<div class="expanded__inner">
+					<div class="expanded__media">
+						<h2 class="expanded__title">What distinguishes <span style="color:red;">me</span>?</h2>
+						<div class="skill_describe">
+							<div>
+								<h3>Communication</h3>
+								<ul>
+									<li>Strong communications skills</li>
+									<li>Knowledge of Scrum/Agile</li>
+									<li>Good English skills</li>
+									<li>Focus on the user</li>
+								</ul>
+							</div>
+							<div>
+								<h3>Technology</h3>
+								<ul>
+									<li>HTTP, JavaScript, HTML and CSS</li>
+									<li>Write clean, well-organised code</li>
+									<li>Understanding of REST and JSON</li>
+									<li>Graphic and UI design</li>
+								</ul>
+							</div>
+						</div>
+
+						<p class="expanded__text">Currently I'm learning React/Redux. My main goal is to learn this framework, with resposive desing and good practices like testing (Jest).</p>
+
+						<div class="skill_icon_awesome" style="font-size: 3rem;"><i class="fab fa-js "></i><i class="fab fa-node "></i><i class="fab fa-git"></i>
+							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i>
+							<i class="fas fa-atom"></i><i class="fab fa-npm"></i><i class="fab fa-adobe"></i><i class="fab fa-sass"></i>
+							<i class="fab fa-wordpress"></i>
+
+						</div>
+
+
+
+					</div>
+					<div class="expanded__content" id="skill">
+						<li><span class="bar htmlcss">
+								<p>90%</p>
+							</span>
+							<h3>Html / Css </h3>
+						</li>
+						<li><span class="bar javascript">
+								<p>75%</p>
+							</span>
+							<h3>Java Script ES6</h3>
+						</li>
+						<li><span class="bar jquery">
+								<p>50%</p>
+							</span>
+							<h3>jQuery</h3>
+						</li>
+						<li><span class="bar react">
+								<p>40%</p>
+							</span>
+							<h3>React</h3>
+						</li>
+						<li><span class="bar node">
+								<p>30%</p>
+							</span>
+							<h3>Node.js / Express </h3>
+						</li>
+
+					</div>
+				</div>
+		</div>
+	</div>
+
+
+
+	<!-- timeline  -->
+	<div id="experience" class="expanded timelinecon">
+		<h1 class="h1_top_styling">Experience</h1>
+		<div class="timeline">
+			<div class="containerTime left">
+				<div class="contentTime">
+					<h4>Startup Co-owner - Domocni.pl</h4>
+					<p>2017 - present</p>
+					<ul>
+						<li>Creating strategy and product development of a start-up </li>
+						<li>Develop and manage budgets for marketing, operations, and technology</li>
+						<li>Building an internet application</li>
+					</ul>
+				</div>
+			</div>
+			<div class="containerTime right">
+				<div class="contentTime">
+					<h4>Project Manager - Allianz</h4>
+					<p>2016 - 2017</p>
+					<ul>
+						<li>Design and development of new innovative business models </li>
+						<li>Developing a product strategy and continually refine it for optimal product/market fit.</li>
+						<li>Designing and creating a prototype of mobile applications</li>
+					</ul>
+				</div>
+			</div>
+			<div class="containerTime left">
+				<div class="contentTime">
+					<h4>IT Analyst - Soudal</h4>
+					<p>2015 - 2016</p>
+					<ul>
+						<li>Providing the first line of support for CRM MS dynamics 2011, SFA, ERP </li>
+						<li>Participation in implementation and development of CRM and SFA systems in the CEE region</li>
+						<li>Preparation of technical and training documentation</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- CV -->
+	<div class="cta cta--reverse">
+		<div class="container">
+			<div class="cta__inner">
+				<h2 class="cta__title">My experience</h2>
+				<p class="cta__sub cta__sub--center">Do you want to learn more about my experience?</p>
+				<a href="images/Marcin Sufa CV en.pdf" class="button hero__button" download>My CV</a>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer footer--dark">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="index.html" class="footer__textLogo">Marcin Sufa</a>
+				<div class="footer__data">
+					<div class="footer__data__item">
+						<div class="footer__row">
+							<a href="mailto:sufa.marcin@gmail.com" target="_blank" class="footer__link">sufa.marcin@gmail.com</a>
+						</div>
+					</div>
+					<div class="footer__data__item">
+						<div class="footer__row">
+							<a href="https://github.com/MarcinSufa" target="_blank" class="footer__link">GitHub</a>
+						</div>
+						<div class="footer__row">
+							<a href="https://linkedin.com/in/marcin-sufa-05711492" target="_blank" class="footer__link">LinkedIn</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="particles.js"></script>
+		<script src='js/app.js'></script>
+
+
+</body>
+
+</html>
