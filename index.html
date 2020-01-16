@@ -104,15 +104,40 @@
 
 
 			<div class="navbarPortfolio">
-
+				<button class="tablink" onclick="openPortfolio('CircleK', this, '#683A6E')">Praca CircleK.pl</button>
 				<button class="tablink" onclick="openPortfolio('Shoemaster', this, '#683A6E')" id="defaultOpen">Shoemaster</button>
 				<button class="tablink" onclick="openPortfolio('Domocni', this, '#683A6E')" >Domocni.pl</button>
 				<button class="tablink" onclick="openPortfolio('Blog', this, '#683A6E')">Mailchimp Api</button>
 				<button class="tablink" onclick="openPortfolio('ToDoApp', this, '#683A6E')">ToDoApp</button>
-				<button class="tablink" onclick="openPortfolio('SimonsGame', this, '#683A6E')">Simons Game</button>
 			</div>
 		</div>
 		<div class="container">
+			<div id="CircleK" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="https://media.giphy.com/media/RNbErxcO8DBGor6Pmy/giphy.gif" title="Circlek job site" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">CircleK.pl Job site</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Job site for Circlek company in Poland. My responsibilities was to change layout of website add animations, connect with cms, build job search map with job offers integrated with erecruter.
+						</p>
+						<h4>Technologies</h4>
+						<div class="portfolio_tech_btn">
+							<button>Vue</button><button>Wordpress(CMS)</button><button>acf</button><button>Html</button> <button>Sass</button> <button>JavaScript</button> <button>jQuery</button> <button>google maps api</button>
+						</div>
+						<hr />
+						<div class="portfolio_links">
+							<a href="https://praca.circlek.pl" class="button button__accent">praca.circlek.pl</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div id="Domocni" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media ">
@@ -249,34 +274,6 @@
 				</div>
 			</div>
 
-			<div id="SimonsGame" class="steps__inner tabcontent">
-				<div class="step">
-					<div class="step__media">
-						<img src="https://media.giphy.com/media/1Xb0kHvvyhyGwxy44g/giphy.gif" title="SimonsGame showcase" />
-
-					</div>
-				</div>
-
-				<div class="step">
-					<h2 class="portfolio_header">Simon's Game</h2>
-					<div class="step__text">
-
-						<h4>Description</h4>
-						<p> Simple memory game, made in vanila JavaScript. Learning foundations of js.
-						</p>
-						<h4>Technologies</h4>
-						<div class="portfolio_tech_btn">
-							<button>Html</button> <button>JavaScript</button>
-						</div>
-						<hr />
-						<div class="portfolio_links">
-							<a href="https://github.com/MarcinSufa/Simon-Game" class="button button__accent"><i class="fab fa-github"></i></a>
-							<a href="https://marcinsufa.github.io/Simon-Game/" class="button button__accent">Simon's Game</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
 
 		</div>
 	</div>
@@ -302,7 +299,7 @@
 							<div>
 								<h3>Technology</h3>
 								<ul>
-									<li>HTTP, JavaScript, HTML and CSS</li>
+									<li>HTTP, JavaScript, HTML and CSS / Sass</li>
 									<li>Write clean, well-organised code</li>
 									<li>Understanding of REST and JSON</li>
 									<li>Graphic and UI design</li>
@@ -313,7 +310,7 @@
 						<p class="expanded__text">Currently I focus on expanding knowledge in React/Redux. My main goal is to learn this framework, with resposive desing</p>
 
 						<div class="skill_icon_awesome" style="font-size: 3rem;"><i class="fab fa-js "></i><i class="fab fa-node "></i><i class="fab fa-git"></i>
-							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i>
+							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i><i class="fab fa-vuejs"></i>
 							<i class="fas fa-atom"></i><i class="fab fa-npm"></i><i class="fab fa-adobe"></i><i class="fab fa-sass"></i>
 							<i class="fab fa-wordpress"></i>
 						</div>
@@ -339,10 +336,10 @@
 							</span>
 							<h3>Redux</h3>
 						</li>
-						<li><span class="bar node">
+						<li><span class="bar graphQl">
 								<p>30%</p>
 							</span>
-							<h3>Node.js / Express </h3>
+							<h3>GraphQl </h3>
 						</li>
 
 					</div>
@@ -353,10 +350,22 @@
 	<div id="experience" class="expanded timelinecon">
 		<h1 class="h1_top_styling">Experience</h1>
 		<div class="timeline">
+			<div class="containerTime right">
+				<div class="contentTime">
+					<h4>Front-end developer - Employer Branding Institute</h4>
+					<p>2019 - present</p>
+					<ul>
+						<li>Design UI/UX of web aplications</li>
+						<li>Implementing web design and development principles to build stable software</li>
+						<li>Bringing mockups to life using HTML, Css / Sass, JavaScript / ES6 </li>
+						<li>Building websites and apps that are resposible and usable </li>
+					</ul>
+				</div>
+			</div>
 			<div class="containerTime left">
 				<div class="contentTime">
 					<h4>Startup Co-owner - Domocni.pl</h4>
-					<p>2017 - present</p>
+					<p>2017 - 2019</p>
 					<ul>
 						<li>Creating strategy and product development of a start-up </li>
 						<li>Develop and manage budgets for marketing, operations, and technology</li>
@@ -394,7 +403,7 @@
 			<div class="cta__inner">
 				<h2 class="cta__title">My experience</h2>
 				<p class="cta__sub cta__sub--center">Do you want to learn more about my experience?</p>
-				<a href="images/Marcin Sufa CV en.pdf" class="button hero__button" download>My CV</a>
+				<a href="images\Marcin Sufa CV frontend dev.pdf" class="button hero__button" download>My CV</a>
 			</div>
 		</div>
 	</div>

@@ -2056,10 +2056,10 @@ li h3 {
   background-image: linear-gradient(top, #66b3cc, #5da3ba)
 }
 
-.node {
+.graphQl {
   width: 30%;
-  -moz-animation: node 2s ease-out;
-  -webkit-animation: node 2s ease-out;
+  -moz-animation: graphQl 2s ease-out;
+  -webkit-animation: graphQl 2s ease-out;
   background-color: #B063BB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#B063BB), to(#683A6E));
   background-image: -webkit-linear-gradient(top, #B063BB, #683A6E);
@@ -2109,13 +2109,13 @@ li h3 {
   }
 }
 
-@-moz-keyframes node {
+@-moz-keyframes graphQl {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 80%;
+    width: 30%;
   }
 }
 
@@ -2159,7 +2159,7 @@ li h3 {
   }
 }
 
-@-webkit-keyframes node {
+@-webkit-keyframes graphQl {
   0% {
     width: 0px;
   }
