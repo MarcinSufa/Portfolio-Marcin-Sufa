@@ -2027,10 +2027,10 @@ li h3 {
   background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
-.jquery {
-  width: 50%;
-  -moz-animation: jquery 2s ease-out;
-  -webkit-animation: jquery 2s ease-out;
+.redux {
+  width: 30%;
+  -moz-animation: redux 2s ease-out;
+  -webkit-animation: redux 2s ease-out;
   background-color: #a1ce5b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
   background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -2041,7 +2041,7 @@ li h3 {
 }
 
 .react {
-  width: 40%;
+  width: 70%;
   -moz-animation: react 2s ease-out;
   -webkit-animation: react 2s ease-out;
   background-color: #66b3cc;
@@ -2053,10 +2053,10 @@ li h3 {
   background-image: linear-gradient(top, #66b3cc, #5da3ba)
 }
 
-.node {
-  width: 30%;
-  -moz-animation: node 2s ease-out;
-  -webkit-animation: node 2s ease-out;
+.graphQl {
+  width: 40%;
+  -moz-animation: graphQl 2s ease-out;
+  -webkit-animation: graphQl 2s ease-out;
   background-color: #B063BB;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#B063BB), to(#683A6E));
   background-image: -webkit-linear-gradient(top, #B063BB, #683A6E);
@@ -2086,13 +2086,13 @@ li h3 {
   }
 }
 
-@-moz-keyframes jquery {
+@-moz-keyframes redux {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -2106,13 +2106,13 @@ li h3 {
   }
 }
 
-@-moz-keyframes node {
+@-moz-keyframes graphQl {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 80%;
+    width: 40%;
   }
 }
 
@@ -2136,13 +2136,13 @@ li h3 {
   }
 }
 
-@-webkit-keyframes jquery {
+@-webkit-keyframes redux {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 50%;
+    width: 30%;
   }
 }
 
@@ -2152,17 +2152,17 @@ li h3 {
   }
 
   100% {
-    width: 40%;
+    width: 70%;
   }
 }
 
-@-webkit-keyframes node {
+@-webkit-keyframes graphQl {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 30%;
+    width: 40%;
   }
 }
 

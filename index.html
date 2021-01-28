@@ -104,12 +104,11 @@
 
 
 			<div class="navbarPortfolio">
-
+				<button class="tablink" onclick="openPortfolio('CircleK', this, '#683A6E')">Praca CircleK.pl</button>
 				<button class="tablink" onclick="openPortfolio('Domocni', this, '#683A6E')" id="defaultOpen">Domocni.pl</button>
+				<button class="tablink" onclick="openPortfolio('Komunikaacja', this, '#683A6E')">Komunikaacja</button>
 				<button class="tablink" onclick="openPortfolio('BiegunWydarzen', this, '#683A6E')">BiegunWydarzen.pl</button>
 				<button class="tablink" onclick="openPortfolio('Blog', this, '#683A6E')">Mailchimp Api</button>
-				<button class="tablink" onclick="openPortfolio('ToDoApp', this, '#683A6E')">ToDoApp</button>
-				<button class="tablink" onclick="openPortfolio('SimonsGame', this, '#683A6E')">Simons Game</button>
 			</div>
 		</div>
 		<div class="container">
@@ -214,60 +213,60 @@
 
 
 
-			<div id="ToDoApp" class="steps__inner tabcontent">
+			<div id="Komunikaacja" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media">
-						<img src="https://media.giphy.com/media/9Y3KhY903Jk0CMubjw/giphy.gif" title="ToDoApp showcase" />
+						<img src="https://media.giphy.com/media/iAndU7cxCoLvgr2ibu/giphy.gif" title="Komunikaacja showcase" />
 
 					</div>
 				</div>
 
 				<div class="step">
-					<h2 class="portfolio_header">ToDoApp</h2>
+					<h2 class="portfolio_header">Komunikaacja (under development)</h2>
 					<div class="step__text">
 
 						<h4>Description</h4>
-						<p> Building To-do app, using Ejs for views, and Node.js for server.
+						<p> Building app with Graphics for AAC communication. Voluntary work, for 'Design bez Barier' foundation.
+							App connected with Strapi Cms. Built in Nuxt/Apollo/GraphQl.
 						</p>
 						<h4>Technologies</h4>
 						<div class="step__media">
 							<div class="portfolio_tech_btn">
-								<button>Html</button> <button>Css</button> <button>EJS</button><button>Node.js</button><button>Heroku</button>
+								<button>Vue</button> <button>Sass</button> <button>Nuxt</button><button>GraphQl</button><button>Strapi</button>
+								<button>Vuetify</button>
 							</div>
 							<hr />
 
 							<div class="portfolio_links">
-								<a href="https://github.com/MarcinSufa/todo-app" class="button button__accent"><i class="fab fa-github"></i></a>
-								<a href="https://stormy-tor-94263.herokuapp.com/" class="button button__accent">Heroku link</a>
+								<a href="https://komunikaacja-strona.herokuapp.com/" class="button button__accent">Link to app</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div id="SimonsGame" class="steps__inner tabcontent">
+			<div id="CircleK" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media">
-						<img src="https://media.giphy.com/media/1Xb0kHvvyhyGwxy44g/giphy.gif" title="SimonsGame showcase" />
+						<img src="https://media.giphy.com/media/RNbErxcO8DBGor6Pmy/giphy.gif" title="Circlek job site" />
 
 					</div>
 				</div>
 
 				<div class="step">
-					<h2 class="portfolio_header">Simon's Game</h2>
+					<h2 class="portfolio_header">CircleK.pl Job site</h2>
 					<div class="step__text">
 
 						<h4>Description</h4>
-						<p> Simple memory game, made in vanila JavaScript. Learning foundations of js.
+						<p> Job site for Circlek company in Poland. My responsibilities was to change layout of website add animations, connect with cms, build job search map with job offers integrated with erecruter.
 						</p>
 						<h4>Technologies</h4>
 						<div class="portfolio_tech_btn">
-							<button>Html</button> <button>JavaScript</button>
+							<button>Vue</button><button>Wordpress(CMS)</button><button>acf</button><button>Html</button> <button>Sass</button> <button>JavaScript</button> <button>jQuery</button> <button>google maps api</button>
 						</div>
 						<hr />
 						<div class="portfolio_links">
-							<a href="https://github.com/MarcinSufa/Simon-Game" class="button button__accent"><i class="fab fa-github"></i></a>
-							<a href="https://marcinsufa.github.io/Simon-Game/" class="button button__accent">Simon's Game</a>
+							<a href="https://praca.circlek.pl" class="button button__accent">praca.circlek.pl</a>
 						</div>
 					</div>
 				</div>
@@ -281,7 +280,7 @@
 	<div id="skills" class="expanded landing__section">
 		<div class="container">
 
-			<h1 class="h1_top_styling">My Skill's</h2>
+			<h2 class="h1_top_styling">My Skill's</h2>
 				<div class="expanded__inner">
 					<div class="expanded__media">
 						<h2 class="expanded__title">What distinguishes <span style="color:red;">me</span>?</h2>
@@ -306,10 +305,10 @@
 							</div>
 						</div>
 
-						<p class="expanded__text">Currently I'm learning React/Redux. My main goal is to learn this framework, with resposive desing and good practices like testing (Jest).</p>
+						<p class="expanded__text">Currently I'm learning nuxt with grapqQl. My main goal is to learn this framework, with resposive desing and good practices like testing (Jest).</p>
 
 						<div class="skill_icon_awesome" style="font-size: 3rem;"><i class="fab fa-js "></i><i class="fab fa-node "></i><i class="fab fa-git"></i>
-							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i>
+							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i><i class="fab fa-vuejs"></i>
 							<i class="fas fa-atom"></i><i class="fab fa-npm"></i><i class="fab fa-adobe"></i><i class="fab fa-sass"></i>
 							<i class="fab fa-wordpress"></i>
 
@@ -329,20 +328,21 @@
 							</span>
 							<h3>Java Script ES6</h3>
 						</li>
-						<li><span class="bar jquery">
-								<p>50%</p>
-							</span>
-							<h3>jQuery</h3>
-						</li>
+						
 						<li><span class="bar react">
-								<p>40%</p>
+								<p>70%</p>
 							</span>
 							<h3>React</h3>
 						</li>
-						<li><span class="bar node">
+						<li><span class="bar graphQl">
+								<p>40%</p>
+							</span>
+							<h3>GraphQl </h3>
+						</li>
+						<li><span class="bar redux">
 								<p>30%</p>
 							</span>
-							<h3>Node.js / Express </h3>
+							<h3>Redux</h3>
 						</li>
 
 					</div>
@@ -356,10 +356,22 @@
 	<div id="experience" class="expanded timelinecon">
 		<h1 class="h1_top_styling">Experience</h1>
 		<div class="timeline">
+			<div class="containerTime right">
+				<div class="contentTime">
+					<h4>Front-end developer - Employer Branding Institute</h4>
+					<p>2019 - present</p>
+					<ul>
+						<li>Design UI/UX of web aplications</li>
+						<li>Implementing web design and development principles to build stable software</li>
+						<li>Bringing mockups to life using HTML, Css / Sass, JavaScript / ES6 </li>
+						<li>Building websites and apps that are resposible and usable </li>
+					</ul>
+				</div>
+			</div>
 			<div class="containerTime left">
 				<div class="contentTime">
 					<h4>Startup Co-owner - Domocni.pl</h4>
-					<p>2017 - present</p>
+					<p>2017 - 2019</p>
 					<ul>
 						<li>Creating strategy and product development of a start-up </li>
 						<li>Develop and manage budgets for marketing, operations, and technology</li>
