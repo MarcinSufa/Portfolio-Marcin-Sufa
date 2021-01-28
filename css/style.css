@@ -1276,6 +1276,9 @@ h1.hero__title {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 .expanded {
@@ -2015,7 +2018,7 @@ li h3 {
 }
 
 .javascript {
-  width: 75%;
+  width: 80%;
   -moz-animation: javascript 2s ease-out;
   -webkit-animation: javascript 2s ease-out;
   background-color: #f0bb4b;
@@ -2027,10 +2030,10 @@ li h3 {
   background-image: linear-gradient(top, #f0bb4b, #d9aa44);
 }
 
-.redux {
-  width: 30%;
-  -moz-animation: redux 2s ease-out;
-  -webkit-animation: redux 2s ease-out;
+.react {
+  width: 70%;
+  -moz-animation: react 2s ease-out;
+  -webkit-animation: react 2s ease-out;
   background-color: #a1ce5b;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
   background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
@@ -2040,10 +2043,10 @@ li h3 {
   background-image: linear-gradient(top, #a1ce5b, #91ba52);
 }
 
-.react {
-  width: 70%;
-  -moz-animation: react 2s ease-out;
-  -webkit-animation: react 2s ease-out;
+.redux {
+  width: 50%;
+  -moz-animation: redux 2s ease-out;
+  -webkit-animation: redux 2s ease-out;
   background-color: #66b3cc;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
   background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
@@ -2054,7 +2057,7 @@ li h3 {
 }
 
 .graphQl {
-  width: 40%;
+  width: 30%;
   -moz-animation: graphQl 2s ease-out;
   -webkit-animation: graphQl 2s ease-out;
   background-color: #B063BB;
@@ -2082,17 +2085,7 @@ li h3 {
   }
 
   100% {
-    width: 75%;
-  }
-}
-
-@-moz-keyframes redux {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 30%;
+    width: 80%;
   }
 }
 
@@ -2102,7 +2095,17 @@ li h3 {
   }
 
   100% {
-    width: 40%;
+    width: 70%;
+  }
+}
+
+@-moz-keyframes redux {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
   }
 }
 
@@ -2112,7 +2115,7 @@ li h3 {
   }
 
   100% {
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -2132,17 +2135,7 @@ li h3 {
   }
 
   100% {
-    width: 75%;
-  }
-}
-
-@-webkit-keyframes redux {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 30%;
+    width: 80%;
   }
 }
 
@@ -2156,13 +2149,23 @@ li h3 {
   }
 }
 
+@-webkit-keyframes redux {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
 @-webkit-keyframes graphQl {
   0% {
     width: 0px;
   }
 
   100% {
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -2192,25 +2195,10 @@ li h3 {
   padding: 0 5px;
 }
 
-#Domocni {
+#Domocni, #Shoemaster, #Blog, #ToDoApp, #SimonsGame {
   background-color: #F7F7F7;
 }
 
-#BiegunWydarzen {
-  background-color: #F7F7F7;
-}
-
-#Blog {
-  background-color: #F7F7F7;
-}
-
-#ToDoApp {
-  background-color: #F7F7F7;
-}
-
-#SimonsGame {
-  background-color: #F7F7F7;
-}
 
 .portfolio_image {
   width: 400px;
