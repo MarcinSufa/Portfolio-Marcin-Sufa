@@ -2,30 +2,6 @@
 <html lang='en'>
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156330490-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-156330490-1');
-	</script>
-	<!-- Yandex.Metrika counter -->
-		<script type="text/javascript" >
-		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-		m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-		ym(57062266, "init", {
-				clickmap:true,
-				trackLinks:true,
-				accurateTrackBounce:true,
-				webvisor:true
-		});
-		</script>
-		<noscript><div><img src="https://mc.yandex.ru/watch/57062266" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
 	<meta class="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -49,7 +25,7 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#experience">Experience</a></li>
-						<li><a href="https://drive.google.com/file/d/1nrHPRCmx8k2zcnSWHskG3bKNOBcOeJWG/view?usp=sharing" target="_blank">CV</a></li>
+						<li><a href="images/Marcin Sufa CV en.pdf">CV</a></li>
 					</ul>
 				</nav>
 				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -128,75 +104,14 @@
 
 
 			<div class="navbarPortfolio">
-					<button class="tablink" onclick="openPortfolio('Dodomarket', this, '#683A6E')" id="defaultOpen">Dodomarket.pl</button>
-				<button class="tablink" onclick="openPortfolio('CircleK', this, '#683A6E')" >Praca CircleK.pl</button>
-				<button class="tablink" onclick="openPortfolio('Shoemaster', this, '#683A6E')" >Shoemaster</button>
-				<button class="tablink" onclick="openPortfolio('Domocni', this, '#683A6E')" >Domocni.pl</button>
+				<button class="tablink" onclick="openPortfolio('CircleK', this, '#683A6E')">Praca CircleK.pl</button>
+				<button class="tablink" onclick="openPortfolio('Domocni', this, '#683A6E')" id="defaultOpen">Domocni.pl</button>
+				<button class="tablink" onclick="openPortfolio('Komunikaacja', this, '#683A6E')">Komunikaacja</button>
+				<button class="tablink" onclick="openPortfolio('BiegunWydarzen', this, '#683A6E')">BiegunWydarzen.pl</button>
 				<button class="tablink" onclick="openPortfolio('Blog', this, '#683A6E')">Mailchimp Api</button>
-				<button class="tablink" onclick="openPortfolio('ToDoApp', this, '#683A6E')">ToDoApp</button>
 			</div>
 		</div>
 		<div class="container">
-			<div id="CircleK" class="steps__inner tabcontent">
-				<div class="step">
-					<div class="step__media">
-						<img src="https://media.giphy.com/media/RNbErxcO8DBGor6Pmy/giphy.gif" title="Circlek job site" />
-
-					</div>
-				</div>
-
-				<div class="step">
-					<h2 class="portfolio_header">CircleK.pl Job site</h2>
-					<div class="step__text">
-
-						<h4>Description</h4>
-						<p> Job site for Circlek company in Poland. My responsibilities was to change layout of website add animations, connect with cms, build job search map with job offers integrated with erecruter.
-						</p>
-						<h4>Technologies</h4>
-						<div class="portfolio_tech_btn">
-							<button>Vue</button><button>Wordpress(CMS)</button><button>acf</button><button>Html</button> <button>Sass</button> <button>JavaScript</button> <button>jQuery</button> <button>google maps api</button>
-						</div>
-						<hr />
-						<div class="portfolio_links">
-							<a href="https://praca.circlek.pl" target="_blank" class="button button__accent">praca.circlek.pl</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="Dodomarket" class="steps__inner tabcontent">
-				<div class="step">
-					<div class="step__media ">
-						<div class="img_portfolio">
-
-							<img src="https://media.giphy.com/media/ZG5sqH0WMHJ7pRglEJ/giphy.gif" title="Dodomarket showcase" />
-						</div>
-					</div>
-				</div>
-
-				<div class="step">
-					<h2 class="portfolio_header">Dodomarket.pl</h2>
-					<div class="step__text">
-
-						<h4>Description</h4>
-						<p> Marketplace for grocery stores - full application for Customers, Store owners and Delivery users. 
-						</p>
-						<h4>Technologies</h4>
-						<div class="step__media">
-
-
-							<div class="portfolio_tech_btn">
-								<button>Gatsby</button><button>React</button> <button>Styled-Components</button><button>Netlify</button><button>Laravel</button>
-							</div>
-							<hr />
-							<div class="portfolio_links">
-								<a href="https://wspolpraca.dodomarket.pl" target="_blank" class="button button__accent">Dodomarket</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
 			<div id="Domocni" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media ">
@@ -224,7 +139,7 @@
 							</div>
 							<hr />
 							<div class="portfolio_links">
-								<a href="https://domocni.pl" target="_blank" class="button button__accent">Domocni</a>
+								<a href="https://domocni.pl" class="button button__accent">Domocni</a>
 							</div>
 						</div>
 					</div>
@@ -235,33 +150,29 @@
 
 
 
-			<div id="Shoemaster" class="steps__inner tabcontent">
+			<div id="BiegunWydarzen" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media">
-						<img src="https://media.giphy.com/media/lPXACsvLyuoEaR4bA5/giphy.gif" title="Shoemaster showcase" />
+						<img src="https://media.giphy.com/media/4Hk1Bs0L1qj04rq0Ts/giphy.gif" title="BiegunWydarzen showcase" />
 
 					</div>
 				</div>
 
 				<div class="step">
-					<h2 class="portfolio_header">Shoemaster</h2>
+					<h2 class="portfolio_header">BiegunWydarzen.pl</h2>
 					<div class="step__text">
 
 						<h4>Description</h4>
-						<p> E-commerce SPA aplication build in React / Redux with Firebase on a backend. Cart is saved in localStore, User Authentication is made in Firebase. CRUD on database in firebase.
-							  Test Account below </p>
-								<span>User: 	test@test.pl </span>
-								<span>Password: 		123456</span>
+						<p> Blog about economics, sociology and politics. Creating graphics, infographics, copyrighting, buiding audience, social media management.</p>
 						<h4>Technologies</h4>
 						<div class="step__media">
 							<div class="portfolio_tech_btn">
-								<button>React</button><button>Redux</button><button>Firebase</button>
+								<button>Wordpress</button><button>Facebook Pages</button><button>Facebook Ads</button><button>Infographics</button><button>Photoshop</button><button>Mailchimp</button>
 
 							</div>
 							<hr />
 							<div class="portfolio_links">
-								<a href="https://github.com/MarcinSufa/Shoemaster" target="_blank" class="button button__accent"><i class="fab fa-github"></i></a>
-								<a href="https://marcinsufa.github.io/Shoemaster/" target="_blank" class="button button__accent">Link to app</a>
+								<a href="https://biegunwydarzen.pl" class="button button__accent">BiegunWydarzen</a>
 							</div>
 						</div>
 					</div>
@@ -291,8 +202,8 @@
 							</div>
 							<hr />
 							<div class="portfolio_links">
-								<a href="https://github.com/MarcinSufa/Newsletter-" target="_blank" class="button button__accent"><i class="fab fa-github"></i></a>
-								<a href="https://enigmatic-earth-33456.herokuapp.com/" target="_blank" class="button button__accent">Heroku link</a>
+								<a href="https://github.com/MarcinSufa/Newsletter-" class="button button__accent"><i class="fab fa-github"></i></a>
+								<a href="https://enigmatic-earth-33456.herokuapp.com/" class="button button__accent">Heroku link</a>
 							</div>
 						</div>
 					</div>
@@ -302,32 +213,60 @@
 
 
 
-			<div id="ToDoApp" class="steps__inner tabcontent">
+			<div id="Komunikaacja" class="steps__inner tabcontent">
 				<div class="step">
 					<div class="step__media">
-						<img src="https://media.giphy.com/media/9Y3KhY903Jk0CMubjw/giphy.gif" title="ToDoApp showcase" />
+						<img src="https://media.giphy.com/media/iAndU7cxCoLvgr2ibu/giphy.gif" title="Komunikaacja showcase" />
 
 					</div>
 				</div>
 
 				<div class="step">
-					<h2 class="portfolio_header">ToDoApp</h2>
+					<h2 class="portfolio_header">Komunikaacja (under development)</h2>
 					<div class="step__text">
 
 						<h4>Description</h4>
-						<p> Building To-do app, using Ejs for views, and Node.js for server.
+						<p> Building app with Graphics for AAC communication. Voluntary work, for 'Design bez Barier' foundation.
+							App connected with Strapi Cms. Built in Nuxt/Apollo/GraphQl.
 						</p>
 						<h4>Technologies</h4>
 						<div class="step__media">
 							<div class="portfolio_tech_btn">
-								<button>Html</button> <button>Css</button> <button>EJS</button><button>Node.js</button><button>Heroku</button>
+								<button>Vue</button> <button>Sass</button> <button>Nuxt</button><button>GraphQl</button><button>Strapi</button>
+								<button>Vuetify</button>
 							</div>
 							<hr />
 
 							<div class="portfolio_links">
-								<a href="https://github.com/MarcinSufa/todo-app" target="_blank" class="button button__accent"><i class="fab fa-github"></i></a>
-								<a href="https://stormy-tor-94263.herokuapp.com/" target="_blank" class="button button__accent">Heroku link</a>
+								<a href="https://komunikaacja-strona.herokuapp.com/" class="button button__accent">Link to app</a>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="CircleK" class="steps__inner tabcontent">
+				<div class="step">
+					<div class="step__media">
+						<img src="https://media.giphy.com/media/RNbErxcO8DBGor6Pmy/giphy.gif" title="Circlek job site" />
+
+					</div>
+				</div>
+
+				<div class="step">
+					<h2 class="portfolio_header">CircleK.pl Job site</h2>
+					<div class="step__text">
+
+						<h4>Description</h4>
+						<p> Job site for Circlek company in Poland. My responsibilities was to change layout of website add animations, connect with cms, build job search map with job offers integrated with erecruter.
+						</p>
+						<h4>Technologies</h4>
+						<div class="portfolio_tech_btn">
+							<button>Vue</button><button>Wordpress(CMS)</button><button>acf</button><button>Html</button> <button>Sass</button> <button>JavaScript</button> <button>jQuery</button> <button>google maps api</button>
+						</div>
+						<hr />
+						<div class="portfolio_links">
+							<a href="https://praca.circlek.pl" class="button button__accent">praca.circlek.pl</a>
 						</div>
 					</div>
 				</div>
@@ -341,7 +280,7 @@
 	<div id="skills" class="expanded landing__section">
 		<div class="container">
 
-			<h1 class="h1_top_styling">My Skill's</h2>
+			<h2 class="h1_top_styling">My Skill's</h2>
 				<div class="expanded__inner">
 					<div class="expanded__media">
 						<h2 class="expanded__title">What distinguishes <span style="color:red;">me</span>?</h2>
@@ -358,7 +297,7 @@
 							<div>
 								<h3>Technology</h3>
 								<ul>
-									<li>HTTP, JavaScript, HTML and CSS / Sass</li>
+									<li>HTTP, JavaScript, HTML and CSS</li>
 									<li>Write clean, well-organised code</li>
 									<li>Understanding of REST and JSON</li>
 									<li>Graphic and UI design</li>
@@ -366,13 +305,17 @@
 							</div>
 						</div>
 
-						<p class="expanded__text">Currently I focus on expanding knowledge in React/Redux. My main goal is to learn this framework, with resposive desing</p>
+						<p class="expanded__text">Currently I'm learning nuxt with grapqQl. My main goal is to learn this framework, with resposive desing and good practices like testing (Jest).</p>
 
 						<div class="skill_icon_awesome" style="font-size: 3rem;"><i class="fab fa-js "></i><i class="fab fa-node "></i><i class="fab fa-git"></i>
 							<i class="fab fa-github"></i><i class="fab fa-css3-alt"></i><i class="fab fa-html5"></i><i class="fab fa-vuejs"></i>
 							<i class="fas fa-atom"></i><i class="fab fa-npm"></i><i class="fab fa-adobe"></i><i class="fab fa-sass"></i>
 							<i class="fab fa-wordpress"></i>
+
 						</div>
+
+
+
 					</div>
 					<div class="expanded__content" id="skill">
 						<li><span class="bar htmlcss">
@@ -381,30 +324,34 @@
 							<h3>Html / Css </h3>
 						</li>
 						<li><span class="bar javascript">
-								<p>80%</p>
+								<p>75%</p>
 							</span>
 							<h3>Java Script ES6</h3>
 						</li>
+						
 						<li><span class="bar react">
 								<p>70%</p>
 							</span>
 							<h3>React</h3>
 						</li>
-						<li><span class="bar redux">
-								<p>50%</p>
-							</span>
-							<h3>Redux</h3>
-						</li>
 						<li><span class="bar graphQl">
-								<p>30%</p>
+								<p>40%</p>
 							</span>
 							<h3>GraphQl </h3>
+						</li>
+						<li><span class="bar redux">
+								<p>30%</p>
+							</span>
+							<h3>Redux</h3>
 						</li>
 
 					</div>
 				</div>
 		</div>
 	</div>
+
+
+
 	<!-- timeline  -->
 	<div id="experience" class="expanded timelinecon">
 		<h1 class="h1_top_styling">Experience</h1>
@@ -456,13 +403,20 @@
 			</div>
 		</div>
 	</div>
+
+
+
+
+
+
+
 	<!-- CV -->
 	<div class="cta cta--reverse">
 		<div class="container">
 			<div class="cta__inner">
 				<h2 class="cta__title">My experience</h2>
 				<p class="cta__sub cta__sub--center">Do you want to learn more about my experience?</p>
-				<a href="https://drive.google.com/file/d/1nrHPRCmx8k2zcnSWHskG3bKNOBcOeJWG/view?usp=sharing" target="_blank" class="button hero__button" download>My CV</a>
+				<a href="images/Marcin Sufa CV en.pdf" class="button hero__button" download>My CV</a>
 			</div>
 		</div>
 	</div>
